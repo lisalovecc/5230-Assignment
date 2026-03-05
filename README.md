@@ -8,13 +8,13 @@ All experiments are conducted on the IMDB Large Movie Review Dataset.
 
 The project is divided into three main parts, corresponding to the assignment requirements:
 
-part1_language_models.py
+assignment_1_part_i.py
 
 Implements and compares four different language modeling architectures: N-gram (n=3), Vanilla RNN, LSTM, and Transformer.
 
 Evaluates models based on training/inference time, validation perplexity (PPL), and qualitative text generation.
 
-part2_embedding_ablation.py
+assignment_1_part_ii.py
 
 Investigates the impact of distributed representations.
 
@@ -26,7 +26,7 @@ Self-trained Custom Word2Vec CBOW embeddings (Frozen).
 
 Simulated Public GloVe embeddings (Frozen).
 
-part3_downstream_task.py
+assignment_1_part_iii.py
 
 Evaluates the utility of learned representations on a downstream Binary Sentiment Classification task.
 
@@ -46,9 +46,9 @@ Note: The code is highly optimized for GPU execution. A CUDA-enabled GPU (e.g., 
 
 Each Python script is completely self-contained and handles its own data loading, preprocessing, training, and evaluation. Simply execute them from the terminal:
 
-python part1_language_models.py
-python part2_embedding_ablation.py
-python part3_downstream_task.py
+assignment_1_part_i.py
+assignment_1_part_ii.py
+assignment_1_part_iii.py
 
 
 📊 Key Highlights & Findings
